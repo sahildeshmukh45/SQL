@@ -1,0 +1,29 @@
+INSERT INTO info (id ,s_name,age) values (105,"Rakshit",30),(106,"preeti",36);
+INSERT INTO info (s_name,age) values ("prajakta",41);
+
+
+*sale 
+create table sale(s_date date, product varchar(20), cp int, sp int);
+insert into sale () values ('2000-01-01',"apple",30,40);
+insert into sale (product,sp) values ("grapes",50),("mango",150);
+insert into sale (s_date,product) values ('200-03-02',"table"),('2000-04-03',"chair");
+insert into sale (s-date,cp,sp) values ('2000-03-03',40,50);
+
+*course 
+create table course(c_id varchar(20),c_name varchar(20),duration int);
+insert into course () values ("c1","python",6);
+insert into course (c_name,duration) values ("sql",1);
+insert into course (c_name) values ("ml");
+insert into course (c_id,duration) values ("c3",10);
+
+*t1
+create table t1(id int,dob date,age int)
+insert into t1() values (101,'1997-03-03',23);
+insert into t1(id,age) values (102, 24);
+insert into t1(id) values (103);
+insert into t1() values (104,'2000-03-04',26);
+insert into t1(age) values (30);
+
+
+SELECT * FROM t1;
+SELECT (id) FROM t1;
